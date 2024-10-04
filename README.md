@@ -23,15 +23,24 @@
 ## Install
 
 ### Requirement
+- neovim
+- lua, luarocks
+- node, npm
+- go
+
 #### Mac OS
 - neovim ```brew install neovim```
 - lua ```brew install lua```
-- luarocks ```brew install luarocks```
+  - luarocks ```brew install luarocks```
+- [nvm(node version manager)](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
+- go ```brew install go```
 
 #### Ubuntu
 - neovim ```sudo apt install neovim```
 - lua ```sudo apt install lua5.x```
-- luarocks ```sudo apt install luarocks``` 
+  - luarocks ```sudo apt install luarocks```
+- [nvm(node version manager)](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
+- go ```sudo apt install golang```
 
 #### clonomg this repository to nvim config path.
 ```bash
