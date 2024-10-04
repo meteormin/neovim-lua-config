@@ -15,8 +15,8 @@ return {
 				markdown = { "cbfmt" },
 				java = { "google-java-format" },
 				cmake = { "cmakelang" },
-				json = { { "prettierd", "prettier" } }
-				yaml = { "yamlfmt" }
+				json = { { "prettierd", "prettier" } },
+				yaml = { "yamlfmt" },
 			},
 			format_on_save = {
 				timeout_ms = 500,
