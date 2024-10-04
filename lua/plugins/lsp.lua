@@ -13,7 +13,7 @@ return {
       require('mason-lspconfig').setup({
         ensure_installed = {
           "clangd", "lua_ls", "eslint", "gopls",
-          "jsonls", "marksman"
+          "jsonls", "marksman", "yamlls"
         }
       })
     end,
@@ -28,6 +28,7 @@ return {
       lspconfig.eslint.setup({})
       lspconfig.jsonls.setup({})
       lspconfig.marksman.setup({})
+      lspconfig.yamlls.setUP({})
 
     --   vim.lsp.buf.hover
     --   vim.lsp.buf.definition
