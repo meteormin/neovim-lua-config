@@ -28,7 +28,7 @@ return {
       lspconfig.eslint.setup({})
       lspconfig.jsonls.setup({})
       lspconfig.marksman.setup({})
-      lspconfig.yamlls.setUP({})
+      lspconfig.yamlls.setup({})
 
     --   vim.lsp.buf.hover
     --   vim.lsp.buf.definition
