@@ -11,7 +11,7 @@ return {
 				javascriptreact = { { "prettierd", "prettier" } },
 				typescriptreqct = { { "prettierd", "prettier" } },
 				go = { "gofumpt" },
-				c = { "colang-format" },
+				c = { "clang-format" },
 				markdown = { "cbfmt" },
 				java = { "google-java-format" },
 				cmake = { "cmakelang" },
