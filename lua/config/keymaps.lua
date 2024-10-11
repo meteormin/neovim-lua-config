@@ -10,8 +10,11 @@ mapKey("<C-k>", "<C-w>k") -- Up
 mapKey("<C-l>", "<C-w>l") -- Right
 
 -- clear search hl
-mapKey("<leader>h", ":nohlsearch<CR>")
+mapKey("<leader>h", ":nohlsearch<cr>")
 
 -- indent
 mapKey("<", "<gv", "v")
 mapKey(">", ">gv", "v")
+
+-- neo git
+mapKey("<leader>gg", ":Neogit<cr>")
