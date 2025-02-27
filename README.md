@@ -42,7 +42,7 @@
 - [nvm(node version manager)](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 - go ```sudo apt install golang```
 
-#### clonomg this repository to nvim config path.
+#### cloning this repository to nvim config path.
 ```bash
 $ git clone https://github.com/meteormin/neovim-lua-config.git ~/.config/nvim
 $ nvim 
