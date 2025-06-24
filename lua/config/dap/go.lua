@@ -3,7 +3,7 @@ local adapter = function(dap)
 		type = "server",
 		port = "${port}",
 		executable = {
-			command = "dlv",
+			command = vim.fn.expand("$HOME/go/bin/dlv"),
 			args = { "dap", "-l", "127.0.0.1:${port}" },
 		},
 	}
